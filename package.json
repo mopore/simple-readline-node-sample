@@ -1,10 +1,13 @@
 {
-  "name": "jni-ts-template",
+  "name": "simple-readline-node-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && tsc -b",
+    "build-sample-image": "docker image build -t simple-readline-node-sample . ",
+    "run-sample": "docker container run -it --name simple-readline-node-sample simple-readline-node-sample"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +18,8 @@
     "@typescript-eslint/parser": "^2.21.0",
     "eslint": "^6.8.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "jni-utils": "^1.1.1"
   }
 }

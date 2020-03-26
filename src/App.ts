@@ -1,1 +1,2 @@
-console.log('Ready...');
+import { runTextUi } from "./textui/TextUi";
+runTextUi();
