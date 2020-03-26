@@ -27,7 +27,7 @@ Build the image from within VS Code NPM Scripts and show on Docker Desktop and D
 docker image build -t simple-readline-node-sample .
 ```
 
-## Switch in CLI
+## Switch to CLI
 
 Run a container for the first time
 ```
