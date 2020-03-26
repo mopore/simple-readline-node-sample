@@ -4,9 +4,9 @@ It's a simple node.js application written in TypeScript to have an example, whic
 
 # Path of Demonstration
 
-## Show in Visual Studio Code
-
 Show the GitHub project: [https://github.com/JensNixdorf/simple-readline-node-sample]
+
+## Show in Visual Studio Code
 
 Show Example program in VS Code (with Launch config)
 
@@ -27,7 +27,7 @@ Build the image from within VS Code NPM Scripts and show on Docker Desktop and D
 docker image build -t simple-readline-node-sample .
 ```
 
-## Switch to CLI
+## Switch in CLI
 
 Run a container for the first time
 ```
